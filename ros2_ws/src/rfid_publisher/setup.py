@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+                'rfid_talker = rfid_publisher.rfid_pub:main',
         ],
     },
 )
